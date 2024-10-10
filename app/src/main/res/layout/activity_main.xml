@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    tools:ignore="HarcodedText">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IMPLICIT INTENT"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/kirimPesan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kirim Pesan"
+                android:textSize="20sp"/>
+
+
+            <EditText
+                android:id="@+id/jamAlarm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Masukkan Jam Alarm"/>
+            <EditText
+                android:id="@+id/menitAlarm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Masukkan Menit Alarm"/>
+            <EditText
+                android:id="@+id/ketAlarm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Masukkan Keterangan Alarm"/>
+
+            <Button
+                android:id="@+id/timerAlarm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Set Alarm"
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/mulaiAlarm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mulai Alarm"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/tvAlamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Masukkan Alamat Website"/>
+
+            <Button
+                android:id="@+id/buttonWebsite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Masuk Website"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/startEvent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mulai Event (YYYY-MM-DD HH-MM)"/>
+            <EditText
+                android:id="@+id/endEvent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Selesai Event (YYYY-MM-DD HH-MM)"/>
+            <EditText
+                android:id="@+id/titleEvent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Judul Event"/>
+            <EditText
+                android:id="@+id/descEvent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Deskripsi Event"/>
+            <EditText
+                android:id="@+id/emailADD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="TAmbah Email"/>
+
+            <Button
+                android:id="@+id/setEvent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Buat Event"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tampilPic"/>
+
+            <Button
+                android:id="@+id/buttonCam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Buka Camera"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
